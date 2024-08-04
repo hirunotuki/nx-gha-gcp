@@ -70,12 +70,12 @@ jobs:
           #  NODE_ENV=production
           #  TOKEN_EXPIRE=6400
 
-      - name: Deploy
-        run: |-
-          gcloud run deploy $REPO_NAME \
-          --region $REGION \
-          --image gcr.io/$PROJECT_ID/$REPO_NAME:$GITHUB_SHA \
-          --platform "managed" \
-          --port 3000 \
-          --allow-unauthenticated \
-          --quiet
+      # - name: Deploy
+      #   run: |-
+      #     gcloud run deploy $REPO_NAME \
+      #     --region $REGION \
+      #     --image gcr.io/$PROJECT_ID/$REPO_NAME:$GITHUB_SHA \
+      #     --platform "managed" \
+      #     --port 3000 \
+      #     --allow-unauthenticated \
+      #     --quiet
