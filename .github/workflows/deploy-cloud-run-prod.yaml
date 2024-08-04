@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   GAR_LOCATION: asia-northeast1
   # project-name but it can be anything you want
-  REPOSITORY: cdp-admin
+  REPOSITORY: nx-gha-gcp
   SERVICE: my_service_name  # TODO: update Cloud Run service name
   REGION: asia-northeast1
 jobs:
