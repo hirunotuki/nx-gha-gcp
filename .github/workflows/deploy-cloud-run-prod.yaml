@@ -11,7 +11,7 @@ env:
   GAR_LOCATION: asia-northeast1
   # project-name but it can be anything you want
   REPOSITORY: cdp-admin
-  SERVICE: YOUR_SERVICE_NAME # TODO: update Cloud Run service name
+  SERVICE: my_service_name  # TODO: update Cloud Run service name
   REGION: asia-northeast1
 jobs:
   build-and-deploy:
